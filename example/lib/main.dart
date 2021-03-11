@@ -92,7 +92,7 @@ class _MyAppState extends State<MyApp> {
             children: <Widget>[
               Text('Running on: $_platformVersion\n'),
               Text('Scan result on: $_scanResult\n'),
-              RaisedButton(
+              ElevatedButton(
                 child: Text('scan'),
                 onPressed: () async => _scanCard(),
               )
